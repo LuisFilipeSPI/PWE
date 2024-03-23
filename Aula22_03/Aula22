@@ -1,0 +1,63 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="txtNome">Nome:</label>
+        <input id="txtNome" type="text" placeholder="Nome completo">
+        <br>
+        <br>
+        <label for="txtSenha">Senha:</label>
+        <input id="txtSenha" type="password" placeholder="5 a 8 caracteres">
+        <br>
+        <br>
+        <label for="txtDataNasc">Data nascimento:</label>
+        <input id="txtDataNasc" type="date">
+        <br>
+        <br>
+        <label for="txtNumero">Numero:</label>
+        <input id="txtNumero" type="number" min="0" max="9998" step="2">
+        <fieldset>
+        <legend>Contato</legend>
+        <br>
+        <label for="txtEmail">Email:</label>
+        <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com">
+        <br>
+        <br>
+        <label for="txtSite">Site:</label>
+        <input id="txtSite" type="site" placeholder="htpp://www.exemplo.com">
+        </fieldset>
+        <label>Estado:</label>
+        <select>
+            <option value="">MG</option>
+            <option value="">GO</option>
+            <option value="">MS</option>
+            <option value="">MT</option>
+        </select>
+        <br>
+        <label>Sexo:</label>
+        
+        <input id="masc" type="radio" name="sexo">
+        <lable for="masc">Masculino</lable>
+        
+        <input id="fem" type="radio" name="sexo">
+        <lable for="fem">Feminino</lable>
+
+        <br>
+        <br>
+        <label for="">Linguagem de Programação (Dominio)</label>
+        <br>
+        <input id="language1" type="checkbox">
+        <label for="language1">C</label>
+        <br>
+        <input id="language2" type="checkbox">
+        <label for="language2">Java</label>
+        <br>
+        <input id="language3" type="checkbox">
+        <label for="language3">Portugou</label>
+        <br>
+    </form>
+</body>
+</html>
